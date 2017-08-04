@@ -1,0 +1,44 @@
+body {
+	background-color: #0d1c44;
+}
+
+h1 {
+	color: #ffffff;
+	font-family: Copernicus, serif;
+	text-align: center;
+	font-size: 48;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.indexImage {
+	width: 50%;
+  height: 100%;
+	padding: 150px;
+}
+
+.navigation {
+  text-align: center;
+  width: 50%;
+  height: 100%;
+}
+
+.navigation li {
+	display: list-item;
+	list-style-type: none;
+	text-align: center;
+	font-family: Copernicus, serif;
+	font-size: 22px;
+	letter-spacing: 2px;
+	padding: 30px;
+  text-transform: uppercase;
+}
