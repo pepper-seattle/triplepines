@@ -8,7 +8,7 @@ body {
   flex-flow: column;
   min-height: 100vh;
   margin: 0;
-  font: 14px/1.5em "Helvetica Neue", Arial, sans-serif;
+  font: 16px/1.5em "Helvetica Neue", Arial, sans-serif;
   color: #333;
 }
 
@@ -20,10 +20,6 @@ a, button {
 
 h1, h2, h3, p {
   text-align: center;
-}
-
-p {
-  font-size: 16px;
 }
 
 img, video {
@@ -71,6 +67,9 @@ footer {
   justify-content: center;
   background-color: #c0d0db;
 }
+
+
+
 /*Home Page*/
 
 .index-container {
@@ -78,6 +77,16 @@ footer {
   margin-top: 56px;
   flex-grow: 2;
 }
+
+/*Toggle Text*/
+
+#text1:hover { cursor: pointer; }
+
+input#text1 { background: none; 
+  border: none;
+  outline: none;
+  font-size: 16px;
+  }
 
 /*Merch*/
 
@@ -104,11 +113,8 @@ footer {
 }
 
 
-/*Media Queries*/
 
-/*Notes
-- Need to replace smaller nav settings with hamburger menu and change up the min/max widths for the media query (no min with hamburger menu)
-- Currently anything below 3*/
+/*Media Queries*/
 
 @media screen and (max-width: 577px) {
   body {

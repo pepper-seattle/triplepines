@@ -38,15 +38,11 @@
 
     <div class="index-container">
 
-      <!-- <div class="home-child-container-1">  -->
         <img src="./images/stickers.png" alt="stickers" />
-      <!-- </div> -->
 
-      <!-- Make Shop & Share a button that goes to the contact form -->
-      <!-- <div class="home-child-container-2">  -->
+        <!-- shop and share section -->
         <h2><a href="./contact/index.html">Shop &amp; Share</a></h2>
-        <p>Bought a triple pines tshirt or hoodie? Send us photos of you in your new gear!</p>
-      <!-- </div>    -->
+        <p><input onclick="change()" type="button" value="Bought a triple pines tshirt or hoodie? Send us photos of you in your new gear!" id="text1"></input></p>
 
     </div>
     <footer>
@@ -61,6 +57,13 @@
       }
 
       navigation.addEventListener('click', controlMenu);
+
+      function change() {
+    var elem = document.getElementById("text1");
+    if (elem.value=="Keep warm this winter with a code squatch hoodie and a steaming cup of coffee from your very own Triplepines mug!") elem.value = "Bought a triple pines tshirt or hoodie? Send us photos of you in your new gear!";
+    else elem.value = "Keep warm this winter with a code squatch hoodie and a steaming cup of coffee from your very own Triplepines mug!";
+      }
+
     </script>
 
   </body>
