@@ -79,14 +79,21 @@ footer {
 }
 
 /*Toggle Text*/
+.promoShareText .promoA {
+  display: none;
+}
+.promoShareText .promoB {
+  display: block;
+}
 
-#text1:hover { cursor: pointer; }
+.promoShareText.defaultPromoOn .promoA {
+  display: block;
+}
+.promoShareText.defaultPromoOn .promoB {
+  display: none;
+}
 
-input#text1 { background: none; 
-  border: none;
-  outline: none;
-  font-size: 16px;
-  }
+.promoShareText:hover { cursor: pointer; }
 
 /*Merch*/
 
