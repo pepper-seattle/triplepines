@@ -79,37 +79,29 @@ footer {
 }
 
 /*Toggle Text*/
+.promoShareText .promoA {
+  display: none;
+}
+.promoShareText .promoB {
+  display: block;
+}
 
-#text1:hover { cursor: pointer; }
+.promoShareText.defaultPromoOn .promoA {
+  display: block;
+}
+.promoShareText.defaultPromoOn .promoB {
+  display: none;
+}
 
-input#text1 { background: none; 
-  border: none;
-  outline: none;
-  font-size: 16px;
-  }
+.promoShareText:hover { cursor: pointer; }
 
 /*Merch*/
 
-.merch-container {
+.gallery {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-}
-
-.merch-intro {
-  display: flex;
-  order: 1;
-  justify-content: center;
-  align-items: center;
-}
-
-.merch-images {
-  display: flex;
-  order: 2;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 50px;
 }
 
 
