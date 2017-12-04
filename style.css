@@ -1,11 +1,12 @@
 /*Elements*/
-/** {*/
-  /*border: 1px solid red;*/
-/*}*/
+  * {
+ /* border: 1px solid red;*/
+  }
 
 body {
   display: flex;
   flex-flow: column;
+  text-align: center;
   min-height: 100vh;
   margin: 0;
   font: 16px/1.5em "Helvetica Neue", Arial, sans-serif;
@@ -17,6 +18,7 @@ a, button {
   text-decoration: none;
   padding: 1em;
 }
+
 
 h1, h2, h3, p {
   text-align: center;
@@ -73,10 +75,19 @@ footer {
 /*Home Page*/
 
 .index-container {
+  justify-content: space-around;
   width: 100%;
   margin-top: 56px;
-  flex-grow: 2;
+  flex-grow: 2; 
 }
+
+.index-container a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0;
+  }
+
 
 /*Toggle Text*/
 .promoShareText .promoA {
@@ -104,6 +115,12 @@ footer {
   margin: 50px;
 }
 
+.gallery h3:hover { cursor: pointer; }
+
+.galleryItem img {
+  padding: 2em;
+  padding-bottom: .25em;
+}
 
 
 /*Media Queries*/
