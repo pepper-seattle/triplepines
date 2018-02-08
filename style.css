@@ -111,16 +111,28 @@ footer {
 .gallery {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
-  margin: 50px;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50px;
 }
 
-.gallery h3:hover { cursor: pointer; }
-
-.galleryItem img {
+.galleryItem {
   padding: 2em;
-  padding-bottom: .25em;
 }
+
+.item h3 {
+  padding: 2em;
+}
+
+.item h3:hover { 
+  cursor: pointer; 
+  transform: scale(1.1);
+  color: #58D5DE;
+}
+
+/*Gallery Modal*/
+
+
 
 
 /*Media Queries*/
